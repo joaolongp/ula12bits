@@ -1,0 +1,231 @@
+# //  ModelSim SE-64 10.3c Jul 18 2014 Linux 4.9.0-8-amd64
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+do sim_fa.do
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 11:49:14 on Oct 17,2019
+# vcom -reportprogress 300 -work work package_ula.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package p_ula
+# End time: 11:49:14 on Oct 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 11:49:14 on Oct 17,2019
+# vcom -reportprogress 300 -work work soma_sub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity soma_sub
+# -- Compiling architecture a1 of soma_sub
+# End time: 11:49:14 on Oct 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 11:49:14 on Oct 17,2019
+# vcom -reportprogress 300 -work work ula.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package p_ula
+# -- Compiling entity alu
+# -- Compiling architecture alu of alu
+# -- Loading entity soma_sub
+# End time: 11:49:14 on Oct 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 11:49:14 on Oct 17,2019
+# vcom -reportprogress 300 -work work tb_ula.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package p_ula
+# -- Compiling entity tb
+# -- Compiling architecture a1 of tb
+# ** Warning: [4] tb_ula.vhd(19): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] tb_ula.vhd(20): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity alu
+# End time: 11:49:14 on Oct 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vsim 
+# Start time: 11:49:14 on Oct 17,2019
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.p_ula
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb(a1)#1
+# Loading work.alu(alu)#1
+# Loading work.soma_sub(a1)#1
+# 1
+# 1
+# ** Error: Cannot open macro file: wave.do
+# Error in macro ./sim_fa.do line 16
+# invalid command name "vsim_increment_error_count"
+#     while executing
+# "::tcl_unknown vsim_increment_error_count"
+#     ("uplevel" body line 1)
+#     invoked from within
+# "uplevel 1 ::tcl_unknown $args"
+add wave -position insertpoint sim:/tb/*
+run 50ns
+# Causality operation skipped due to absence of debug database file
+do sim_fa.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is 18280400@l1847151.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 11:52:04 on Oct 17,2019
+# vcom -reportprogress 300 -work work package_ula.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package p_ula
+# End time: 11:52:04 on Oct 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 11:52:04 on Oct 17,2019
+# vcom -reportprogress 300 -work work soma_sub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity soma_sub
+# -- Compiling architecture a1 of soma_sub
+# End time: 11:52:04 on Oct 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 11:52:04 on Oct 17,2019
+# vcom -reportprogress 300 -work work ula.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package p_ula
+# -- Compiling entity alu
+# -- Compiling architecture alu of alu
+# -- Loading entity soma_sub
+# End time: 11:52:04 on Oct 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 11:52:04 on Oct 17,2019
+# vcom -reportprogress 300 -work work tb_ula.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package p_ula
+# -- Compiling entity tb
+# -- Compiling architecture a1 of tb
+# ** Warning: [4] tb_ula.vhd(19): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] tb_ula.vhd(20): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity alu
+# End time: 11:52:04 on Oct 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vsim 
+# Start time: 11:52:05 on Oct 17,2019
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.p_ula
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb(a1)#1
+# Loading work.alu(alu)#1
+# Loading work.soma_sub(a1)#1
+# 1
+# 1
+add wave -position insertpoint sim:/tb/*
+run 50ns
+do sim_fa.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is 18280400@l1847151.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 11:52:34 on Oct 17,2019
+# vcom -reportprogress 300 -work work package_ula.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package p_ula
+# End time: 11:52:34 on Oct 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 11:52:34 on Oct 17,2019
+# vcom -reportprogress 300 -work work soma_sub.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity soma_sub
+# -- Compiling architecture a1 of soma_sub
+# End time: 11:52:34 on Oct 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 11:52:34 on Oct 17,2019
+# vcom -reportprogress 300 -work work ula.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package p_ula
+# -- Compiling entity alu
+# -- Compiling architecture alu of alu
+# -- Loading entity soma_sub
+# End time: 11:52:34 on Oct 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
+# Start time: 11:52:34 on Oct 17,2019
+# vcom -reportprogress 300 -work work tb_ula.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package p_ula
+# -- Compiling entity tb
+# -- Compiling architecture a1 of tb
+# ** Warning: [4] tb_ula.vhd(19): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] tb_ula.vhd(20): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity alu
+# End time: 11:52:34 on Oct 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vsim 
+# Start time: 11:52:35 on Oct 17,2019
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.p_ula
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb(a1)#1
+# Loading work.alu(alu)#1
+# Loading work.soma_sub(a1)#1
+# 1
+# 1
+add wave -position insertpoint sim:/tb/*
+run 50ns
+add wave -position insertpoint sim:/tb/*
+run 50ns
