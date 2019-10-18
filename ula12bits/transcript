@@ -14,26 +14,26 @@ do sim_fa.do
 # vmap -modelsim_quiet work work 
 # Modifying modelsim.ini
 # Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:07:08 on Oct 18,2019
+# Start time: 11:05:02 on Oct 18,2019
 # vcom -reportprogress 300 -work work package_ula.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package p_ula
-# End time: 10:07:08 on Oct 18,2019, Elapsed time: 0:00:00
+# End time: 11:05:02 on Oct 18,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:07:08 on Oct 18,2019
+# Start time: 11:05:02 on Oct 18,2019
 # vcom -reportprogress 300 -work work soma_sub.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity soma_sub
 # -- Compiling architecture a1 of soma_sub
-# End time: 10:07:08 on Oct 18,2019, Elapsed time: 0:00:00
+# End time: 11:05:02 on Oct 18,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:07:08 on Oct 18,2019
+# Start time: 11:05:02 on Oct 18,2019
 # vcom -reportprogress 300 -work work ula.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -44,10 +44,10 @@ do sim_fa.do
 # -- Compiling entity alu
 # -- Compiling architecture alu of alu
 # -- Loading entity soma_sub
-# End time: 10:07:08 on Oct 18,2019, Elapsed time: 0:00:00
+# End time: 11:05:02 on Oct 18,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:07:08 on Oct 18,2019
+# Start time: 11:05:02 on Oct 18,2019
 # vcom -reportprogress 300 -work work tb_ula.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -55,15 +55,13 @@ do sim_fa.do
 # -- Loading package p_ula
 # -- Compiling entity tb
 # -- Compiling architecture a1 of tb
-# ** Warning: [4] tb_ula.vhd(19): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] tb_ula.vhd(20): (vcom-1207) An abstract literal and an identifier must have a separator between them.
 # -- Loading package std_logic_arith
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Loading entity alu
-# End time: 10:07:08 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 2
+# End time: 11:05:02 on Oct 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 # vsim 
-# Start time: 10:07:08 on Oct 18,2019
+# Start time: 11:05:02 on Oct 18,2019
 # ** Note: (vsim-3812) Design is being optimized...
 # Loading std.standard
 # Loading std.textio(body)
@@ -76,7 +74,6 @@ do sim_fa.do
 # Loading work.soma_sub(a1)#1
 # 1
 # 1
-# Causality operation skipped due to absence of debug database file
 do sim_fa.do
 # ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is 18280400@l1847151.
 # ** Warning: (vdel-134) Unable to remove locked optimized design "_opt1".  Locker is 18280400@l3043239.
@@ -85,26 +82,26 @@ do sim_fa.do
 # vmap -modelsim_quiet work work 
 # Modifying modelsim.ini
 # Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:17:51 on Oct 18,2019
+# Start time: 11:07:14 on Oct 18,2019
 # vcom -reportprogress 300 -work work package_ula.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package p_ula
-# End time: 10:17:51 on Oct 18,2019, Elapsed time: 0:00:00
+# End time: 11:07:14 on Oct 18,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:17:51 on Oct 18,2019
+# Start time: 11:07:14 on Oct 18,2019
 # vcom -reportprogress 300 -work work soma_sub.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity soma_sub
 # -- Compiling architecture a1 of soma_sub
-# End time: 10:17:51 on Oct 18,2019, Elapsed time: 0:00:00
+# End time: 11:07:14 on Oct 18,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:17:51 on Oct 18,2019
+# Start time: 11:07:14 on Oct 18,2019
 # vcom -reportprogress 300 -work work ula.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -115,10 +112,10 @@ do sim_fa.do
 # -- Compiling entity alu
 # -- Compiling architecture alu of alu
 # -- Loading entity soma_sub
-# End time: 10:17:51 on Oct 18,2019, Elapsed time: 0:00:00
+# End time: 11:07:14 on Oct 18,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:17:51 on Oct 18,2019
+# Start time: 11:07:14 on Oct 18,2019
 # vcom -reportprogress 300 -work work tb_ula.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -126,15 +123,13 @@ do sim_fa.do
 # -- Loading package p_ula
 # -- Compiling entity tb
 # -- Compiling architecture a1 of tb
-# ** Warning: [4] tb_ula.vhd(19): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] tb_ula.vhd(20): (vcom-1207) An abstract literal and an identifier must have a separator between them.
 # -- Loading package std_logic_arith
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Loading entity alu
-# End time: 10:17:51 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 2
+# End time: 11:07:14 on Oct 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 # vsim 
-# Start time: 10:17:51 on Oct 18,2019
+# Start time: 11:07:15 on Oct 18,2019
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # Loading std.standard
 # Loading std.textio(body)
@@ -155,26 +150,26 @@ do sim_fa.do
 # vmap -modelsim_quiet work work 
 # Modifying modelsim.ini
 # Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:18:08 on Oct 18,2019
+# Start time: 11:09:18 on Oct 18,2019
 # vcom -reportprogress 300 -work work package_ula.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package p_ula
-# End time: 10:18:08 on Oct 18,2019, Elapsed time: 0:00:00
+# End time: 11:09:18 on Oct 18,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:18:08 on Oct 18,2019
+# Start time: 11:09:18 on Oct 18,2019
 # vcom -reportprogress 300 -work work soma_sub.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity soma_sub
 # -- Compiling architecture a1 of soma_sub
-# End time: 10:18:08 on Oct 18,2019, Elapsed time: 0:00:00
+# End time: 11:09:18 on Oct 18,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:18:08 on Oct 18,2019
+# Start time: 11:09:18 on Oct 18,2019
 # vcom -reportprogress 300 -work work ula.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -185,10 +180,10 @@ do sim_fa.do
 # -- Compiling entity alu
 # -- Compiling architecture alu of alu
 # -- Loading entity soma_sub
-# End time: 10:18:09 on Oct 18,2019, Elapsed time: 0:00:01
+# End time: 11:09:18 on Oct 18,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:18:09 on Oct 18,2019
+# Start time: 11:09:18 on Oct 18,2019
 # vcom -reportprogress 300 -work work tb_ula.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -196,15 +191,13 @@ do sim_fa.do
 # -- Loading package p_ula
 # -- Compiling entity tb
 # -- Compiling architecture a1 of tb
-# ** Warning: [4] tb_ula.vhd(23): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] tb_ula.vhd(24): (vcom-1207) An abstract literal and an identifier must have a separator between them.
 # -- Loading package std_logic_arith
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Loading entity alu
-# End time: 10:18:09 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 2
+# End time: 11:09:18 on Oct 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 # vsim 
-# Start time: 10:18:09 on Oct 18,2019
+# Start time: 11:09:19 on Oct 18,2019
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # Loading std.standard
 # Loading std.textio(body)
@@ -225,26 +218,26 @@ do sim_fa.do
 # vmap -modelsim_quiet work work 
 # Modifying modelsim.ini
 # Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:20:36 on Oct 18,2019
+# Start time: 11:10:02 on Oct 18,2019
 # vcom -reportprogress 300 -work work package_ula.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package p_ula
-# End time: 10:20:36 on Oct 18,2019, Elapsed time: 0:00:00
+# End time: 11:10:02 on Oct 18,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:20:37 on Oct 18,2019
+# Start time: 11:10:02 on Oct 18,2019
 # vcom -reportprogress 300 -work work soma_sub.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity soma_sub
 # -- Compiling architecture a1 of soma_sub
-# End time: 10:20:37 on Oct 18,2019, Elapsed time: 0:00:00
+# End time: 11:10:02 on Oct 18,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:20:37 on Oct 18,2019
+# Start time: 11:10:02 on Oct 18,2019
 # vcom -reportprogress 300 -work work ula.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -255,10 +248,10 @@ do sim_fa.do
 # -- Compiling entity alu
 # -- Compiling architecture alu of alu
 # -- Loading entity soma_sub
-# End time: 10:20:37 on Oct 18,2019, Elapsed time: 0:00:00
+# End time: 11:10:02 on Oct 18,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:20:37 on Oct 18,2019
+# Start time: 11:10:02 on Oct 18,2019
 # vcom -reportprogress 300 -work work tb_ula.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -266,15 +259,13 @@ do sim_fa.do
 # -- Loading package p_ula
 # -- Compiling entity tb
 # -- Compiling architecture a1 of tb
-# ** Warning: [4] tb_ula.vhd(19): (vcom-1207) An abstract literal and an identifier must have a separator between them.
-# ** Warning: [4] tb_ula.vhd(20): (vcom-1207) An abstract literal and an identifier must have a separator between them.
 # -- Loading package std_logic_arith
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Loading entity alu
-# End time: 10:20:37 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 2
+# End time: 11:10:02 on Oct 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 # vsim 
-# Start time: 10:20:37 on Oct 18,2019
+# Start time: 11:10:02 on Oct 18,2019
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # Loading std.standard
 # Loading std.textio(body)
@@ -295,26 +286,26 @@ do sim_fa.do
 # vmap -modelsim_quiet work work 
 # Modifying modelsim.ini
 # Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:21:21 on Oct 18,2019
+# Start time: 11:10:57 on Oct 18,2019
 # vcom -reportprogress 300 -work work package_ula.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling package p_ula
-# End time: 10:21:21 on Oct 18,2019, Elapsed time: 0:00:00
+# End time: 11:10:57 on Oct 18,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:21:21 on Oct 18,2019
+# Start time: 11:10:57 on Oct 18,2019
 # vcom -reportprogress 300 -work work soma_sub.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity soma_sub
 # -- Compiling architecture a1 of soma_sub
-# End time: 10:21:21 on Oct 18,2019, Elapsed time: 0:00:00
+# End time: 11:10:57 on Oct 18,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:21:21 on Oct 18,2019
+# Start time: 11:10:57 on Oct 18,2019
 # vcom -reportprogress 300 -work work ula.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -325,10 +316,10 @@ do sim_fa.do
 # -- Compiling entity alu
 # -- Compiling architecture alu of alu
 # -- Loading entity soma_sub
-# End time: 10:21:21 on Oct 18,2019, Elapsed time: 0:00:00
+# End time: 11:10:57 on Oct 18,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:21:21 on Oct 18,2019
+# Start time: 11:10:57 on Oct 18,2019
 # vcom -reportprogress 300 -work work tb_ula.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -339,10 +330,10 @@ do sim_fa.do
 # -- Loading package std_logic_arith
 # -- Loading package STD_LOGIC_UNSIGNED
 # -- Loading entity alu
-# End time: 10:21:21 on Oct 18,2019, Elapsed time: 0:00:00
+# End time: 11:10:57 on Oct 18,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim 
-# Start time: 10:21:22 on Oct 18,2019
+# Start time: 11:10:57 on Oct 18,2019
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # Loading std.standard
 # Loading std.textio(body)
@@ -355,821 +346,5 @@ do sim_fa.do
 # Loading work.soma_sub(a1)#1
 # 1
 # 1
-do sim_fa.do
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is 18280400@l1847151.
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt1".  Locker is 18280400@l3043239.
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
-# vmap -modelsim_quiet work work 
-# Modifying modelsim.ini
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:22:24 on Oct 18,2019
-# vcom -reportprogress 300 -work work package_ula.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling package p_ula
-# End time: 10:22:24 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:22:24 on Oct 18,2019
-# vcom -reportprogress 300 -work work soma_sub.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity soma_sub
-# -- Compiling architecture a1 of soma_sub
-# End time: 10:22:24 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:22:24 on Oct 18,2019
-# vcom -reportprogress 300 -work work ula.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package p_ula
-# -- Compiling entity alu
-# -- Compiling architecture alu of alu
-# -- Loading entity soma_sub
-# End time: 10:22:24 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:22:24 on Oct 18,2019
-# vcom -reportprogress 300 -work work tb_ula.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package p_ula
-# -- Compiling entity tb
-# -- Compiling architecture a1 of tb
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading entity alu
-# End time: 10:22:24 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim 
-# Start time: 10:22:25 on Oct 18,2019
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.p_ula
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.tb(a1)#1
-# Loading work.alu(alu)#1
-# Loading work.soma_sub(a1)#1
-# 1
-# 1
-do sim_fa.do
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is 18280400@l1847151.
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt1".  Locker is 18280400@l3043239.
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
-# vmap -modelsim_quiet work work 
-# Modifying modelsim.ini
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:23:06 on Oct 18,2019
-# vcom -reportprogress 300 -work work package_ula.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling package p_ula
-# End time: 10:23:06 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:23:06 on Oct 18,2019
-# vcom -reportprogress 300 -work work soma_sub.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity soma_sub
-# -- Compiling architecture a1 of soma_sub
-# End time: 10:23:06 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:23:06 on Oct 18,2019
-# vcom -reportprogress 300 -work work ula.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package p_ula
-# -- Compiling entity alu
-# -- Compiling architecture alu of alu
-# -- Loading entity soma_sub
-# End time: 10:23:07 on Oct 18,2019, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:23:07 on Oct 18,2019
-# vcom -reportprogress 300 -work work tb_ula.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package p_ula
-# -- Compiling entity tb
-# -- Compiling architecture a1 of tb
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading entity alu
-# End time: 10:23:07 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim 
-# Start time: 10:23:07 on Oct 18,2019
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.p_ula
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.tb(a1)#1
-# Loading work.alu(alu)#1
-# Loading work.soma_sub(a1)#1
-# 1
-# 1
-do sim_fa.do
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is 18280400@l1847151.
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt1".  Locker is 18280400@l3043239.
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
-# vmap -modelsim_quiet work work 
-# Modifying modelsim.ini
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:23:27 on Oct 18,2019
-# vcom -reportprogress 300 -work work package_ula.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling package p_ula
-# End time: 10:23:27 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:23:27 on Oct 18,2019
-# vcom -reportprogress 300 -work work soma_sub.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity soma_sub
-# -- Compiling architecture a1 of soma_sub
-# End time: 10:23:27 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:23:27 on Oct 18,2019
-# vcom -reportprogress 300 -work work ula.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package p_ula
-# -- Compiling entity alu
-# -- Compiling architecture alu of alu
-# -- Loading entity soma_sub
-# End time: 10:23:27 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:23:27 on Oct 18,2019
-# vcom -reportprogress 300 -work work tb_ula.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package p_ula
-# -- Compiling entity tb
-# -- Compiling architecture a1 of tb
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading entity alu
-# End time: 10:23:27 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim 
-# Start time: 10:23:28 on Oct 18,2019
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.p_ula
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.tb(a1)#1
-# Loading work.alu(alu)#1
-# Loading work.soma_sub(a1)#1
-# 1
-# 1
-do sim_fa.do
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is 18280400@l1847151.
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt1".  Locker is 18280400@l3043239.
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
-# vmap -modelsim_quiet work work 
-# Modifying modelsim.ini
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:24:00 on Oct 18,2019
-# vcom -reportprogress 300 -work work package_ula.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling package p_ula
-# End time: 10:24:00 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:24:00 on Oct 18,2019
-# vcom -reportprogress 300 -work work soma_sub.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity soma_sub
-# -- Compiling architecture a1 of soma_sub
-# End time: 10:24:00 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:24:00 on Oct 18,2019
-# vcom -reportprogress 300 -work work ula.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package p_ula
-# -- Compiling entity alu
-# -- Compiling architecture alu of alu
-# -- Loading entity soma_sub
-# End time: 10:24:00 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:24:00 on Oct 18,2019
-# vcom -reportprogress 300 -work work tb_ula.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package p_ula
-# -- Compiling entity tb
-# -- Compiling architecture a1 of tb
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading entity alu
-# End time: 10:24:00 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim 
-# Start time: 10:24:01 on Oct 18,2019
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.p_ula
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.tb(a1)#1
-# Loading work.alu(alu)#1
-# Loading work.soma_sub(a1)#1
-# 1
-# 1
-do sim_fa.do
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is 18280400@l1847151.
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt1".  Locker is 18280400@l3043239.
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
-# vmap -modelsim_quiet work work 
-# Modifying modelsim.ini
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:24:20 on Oct 18,2019
-# vcom -reportprogress 300 -work work package_ula.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling package p_ula
-# End time: 10:24:20 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:24:20 on Oct 18,2019
-# vcom -reportprogress 300 -work work soma_sub.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity soma_sub
-# -- Compiling architecture a1 of soma_sub
-# End time: 10:24:20 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:24:20 on Oct 18,2019
-# vcom -reportprogress 300 -work work ula.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package p_ula
-# -- Compiling entity alu
-# -- Compiling architecture alu of alu
-# -- Loading entity soma_sub
-# End time: 10:24:20 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:24:20 on Oct 18,2019
-# vcom -reportprogress 300 -work work tb_ula.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package p_ula
-# -- Compiling entity tb
-# -- Compiling architecture a1 of tb
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading entity alu
-# End time: 10:24:20 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim 
-# Start time: 10:24:21 on Oct 18,2019
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.p_ula
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.tb(a1)#1
-# Loading work.alu(alu)#1
-# Loading work.soma_sub(a1)#1
-# 1
-# 1
-do sim_fa.do
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is 18280400@l1847151.
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt1".  Locker is 18280400@l3043239.
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
-# vmap -modelsim_quiet work work 
-# Modifying modelsim.ini
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:24:55 on Oct 18,2019
-# vcom -reportprogress 300 -work work package_ula.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling package p_ula
-# End time: 10:24:55 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:24:55 on Oct 18,2019
-# vcom -reportprogress 300 -work work soma_sub.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity soma_sub
-# -- Compiling architecture a1 of soma_sub
-# End time: 10:24:55 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:24:55 on Oct 18,2019
-# vcom -reportprogress 300 -work work ula.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package p_ula
-# -- Compiling entity alu
-# -- Compiling architecture alu of alu
-# -- Loading entity soma_sub
-# End time: 10:24:55 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:24:55 on Oct 18,2019
-# vcom -reportprogress 300 -work work tb_ula.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package p_ula
-# -- Compiling entity tb
-# -- Compiling architecture a1 of tb
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading entity alu
-# End time: 10:24:55 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim 
-# Start time: 10:24:55 on Oct 18,2019
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.p_ula
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.tb(a1)#1
-# Loading work.alu(alu)#1
-# Loading work.soma_sub(a1)#1
-# 1
-# 1
-do sim_fa.do
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is 18280400@l1847151.
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt1".  Locker is 18280400@l3043239.
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
-# vmap -modelsim_quiet work work 
-# Modifying modelsim.ini
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:25:11 on Oct 18,2019
-# vcom -reportprogress 300 -work work package_ula.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling package p_ula
-# End time: 10:25:11 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:25:11 on Oct 18,2019
-# vcom -reportprogress 300 -work work soma_sub.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity soma_sub
-# -- Compiling architecture a1 of soma_sub
-# End time: 10:25:11 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:25:11 on Oct 18,2019
-# vcom -reportprogress 300 -work work ula.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package p_ula
-# -- Compiling entity alu
-# -- Compiling architecture alu of alu
-# -- Loading entity soma_sub
-# End time: 10:25:11 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:25:11 on Oct 18,2019
-# vcom -reportprogress 300 -work work tb_ula.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package p_ula
-# -- Compiling entity tb
-# -- Compiling architecture a1 of tb
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading entity alu
-# End time: 10:25:11 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim 
-# Start time: 10:25:12 on Oct 18,2019
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.p_ula
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.tb(a1)#1
-# Loading work.alu(alu)#1
-# Loading work.soma_sub(a1)#1
-# 1
-# 1
-do sim_fa.do
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is 18280400@l1847151.
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt1".  Locker is 18280400@l3043239.
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
-# vmap -modelsim_quiet work work 
-# Modifying modelsim.ini
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:25:42 on Oct 18,2019
-# vcom -reportprogress 300 -work work package_ula.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling package p_ula
-# End time: 10:25:42 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:25:42 on Oct 18,2019
-# vcom -reportprogress 300 -work work soma_sub.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity soma_sub
-# -- Compiling architecture a1 of soma_sub
-# End time: 10:25:42 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:25:42 on Oct 18,2019
-# vcom -reportprogress 300 -work work ula.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package p_ula
-# -- Compiling entity alu
-# -- Compiling architecture alu of alu
-# -- Loading entity soma_sub
-# End time: 10:25:42 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:25:42 on Oct 18,2019
-# vcom -reportprogress 300 -work work tb_ula.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package p_ula
-# -- Compiling entity tb
-# -- Compiling architecture a1 of tb
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading entity alu
-# End time: 10:25:42 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim 
-# Start time: 10:25:42 on Oct 18,2019
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.p_ula
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.tb(a1)#1
-# Loading work.alu(alu)#1
-# Loading work.soma_sub(a1)#1
-# 1
-# 1
-do sim_fa.do
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is 18280400@l1847151.
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt1".  Locker is 18280400@l3043239.
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
-# vmap -modelsim_quiet work work 
-# Modifying modelsim.ini
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:26:13 on Oct 18,2019
-# vcom -reportprogress 300 -work work package_ula.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling package p_ula
-# End time: 10:26:13 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:26:13 on Oct 18,2019
-# vcom -reportprogress 300 -work work soma_sub.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity soma_sub
-# -- Compiling architecture a1 of soma_sub
-# End time: 10:26:13 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:26:13 on Oct 18,2019
-# vcom -reportprogress 300 -work work ula.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package p_ula
-# -- Compiling entity alu
-# -- Compiling architecture alu of alu
-# -- Loading entity soma_sub
-# End time: 10:26:14 on Oct 18,2019, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:26:14 on Oct 18,2019
-# vcom -reportprogress 300 -work work tb_ula.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package p_ula
-# -- Compiling entity tb
-# -- Compiling architecture a1 of tb
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading entity alu
-# End time: 10:26:14 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim 
-# Start time: 10:26:14 on Oct 18,2019
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.p_ula
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.tb(a1)#1
-# Loading work.alu(alu)#1
-# Loading work.soma_sub(a1)#1
-# 1
-# 1
-do sim_fa.do
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is 18280400@l1847151.
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt1".  Locker is 18280400@l3043239.
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
-# vmap -modelsim_quiet work work 
-# Modifying modelsim.ini
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:26:50 on Oct 18,2019
-# vcom -reportprogress 300 -work work package_ula.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling package p_ula
-# End time: 10:26:50 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:26:50 on Oct 18,2019
-# vcom -reportprogress 300 -work work soma_sub.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity soma_sub
-# -- Compiling architecture a1 of soma_sub
-# End time: 10:26:50 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:26:50 on Oct 18,2019
-# vcom -reportprogress 300 -work work ula.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package p_ula
-# -- Compiling entity alu
-# -- Compiling architecture alu of alu
-# -- Loading entity soma_sub
-# End time: 10:26:50 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:26:50 on Oct 18,2019
-# vcom -reportprogress 300 -work work tb_ula.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package p_ula
-# -- Compiling entity tb
-# -- Compiling architecture a1 of tb
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading entity alu
-# End time: 10:26:50 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim 
-# Start time: 10:26:51 on Oct 18,2019
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.p_ula
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.tb(a1)#1
-# Loading work.alu(alu)#1
-# Loading work.soma_sub(a1)#1
-# 1
-# 1
-do sim_fa.do
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is 18280400@l1847151.
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt1".  Locker is 18280400@l3043239.
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
-# vmap -modelsim_quiet work work 
-# Modifying modelsim.ini
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:27:18 on Oct 18,2019
-# vcom -reportprogress 300 -work work package_ula.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling package p_ula
-# End time: 10:27:18 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:27:18 on Oct 18,2019
-# vcom -reportprogress 300 -work work soma_sub.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity soma_sub
-# -- Compiling architecture a1 of soma_sub
-# End time: 10:27:18 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:27:18 on Oct 18,2019
-# vcom -reportprogress 300 -work work ula.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package p_ula
-# -- Compiling entity alu
-# -- Compiling architecture alu of alu
-# -- Loading entity soma_sub
-# End time: 10:27:18 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:27:18 on Oct 18,2019
-# vcom -reportprogress 300 -work work tb_ula.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package p_ula
-# -- Compiling entity tb
-# -- Compiling architecture a1 of tb
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading entity alu
-# End time: 10:27:18 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim 
-# Start time: 10:27:19 on Oct 18,2019
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.p_ula
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.tb(a1)#1
-# Loading work.alu(alu)#1
-# Loading work.soma_sub(a1)#1
-# 1
-# 1
-do sim_fa.do
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is 18280400@l1847151.
-# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt1".  Locker is 18280400@l3043239.
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim SE-64 vmap 10.3c Lib Mapping Utility 2014.07 Jul 18 2014
-# vmap -modelsim_quiet work work 
-# Modifying modelsim.ini
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:27:29 on Oct 18,2019
-# vcom -reportprogress 300 -work work package_ula.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling package p_ula
-# End time: 10:27:29 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:27:29 on Oct 18,2019
-# vcom -reportprogress 300 -work work soma_sub.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Compiling entity soma_sub
-# -- Compiling architecture a1 of soma_sub
-# End time: 10:27:29 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:27:29 on Oct 18,2019
-# vcom -reportprogress 300 -work work ula.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading package p_ula
-# -- Compiling entity alu
-# -- Compiling architecture alu of alu
-# -- Loading entity soma_sub
-# End time: 10:27:29 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim SE-64 vcom 10.3c Compiler 2014.07 Jul 18 2014
-# Start time: 10:27:29 on Oct 18,2019
-# vcom -reportprogress 300 -work work tb_ula.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package p_ula
-# -- Compiling entity tb
-# -- Compiling architecture a1 of tb
-# -- Loading package std_logic_arith
-# -- Loading package STD_LOGIC_UNSIGNED
-# -- Loading entity alu
-# End time: 10:27:29 on Oct 18,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim 
-# Start time: 10:27:30 on Oct 18,2019
-# ** Note: (vsim-8009) Loading existing optimized design _opt1
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.p_ula
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.tb(a1)#1
-# Loading work.alu(alu)#1
-# Loading work.soma_sub(a1)#1
-# 1
-# 1
-# End time: 10:27:55 on Oct 18,2019, Elapsed time: 0:00:25
+# End time: 11:12:39 on Oct 18,2019, Elapsed time: 0:01:42
 # Errors: 0, Warnings: 0

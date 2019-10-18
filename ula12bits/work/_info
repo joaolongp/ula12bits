@@ -18,16 +18,15 @@ n@_opt
 Z3 OL;O;10.3c;59
 R0
 T_opt1
-!s110 1571405239
-V?<5;gadNcgH@mjzUlFWF61
+!s110 1571407858
+Vc0NQJcJmcQCXMaNgiV:_03
 R1
-=1-782bcbc08759-5da9bdb7-802ec-1420
+=1-782bcbc08759-5da9c7f1-eda7e-1a20
 R2
 n@_opt1
 R3
-R0
 Ealu
-Z4 w1571403384
+Z4 w1571407443
 Z5 DPx4 work 5 p_ula 0 22 0<XdQZ]GUKI][1XzHbSzb3
 Z6 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 Z7 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
@@ -42,9 +41,9 @@ V_mb:BUI;k]^I@cV:UON0;3
 !s100 J^8Z<L3o3M^kJ72Xcc;7<2
 Z13 OL;C;10.3c;59
 32
-Z14 !s110 1571405249
+Z14 !s110 1571407857
 !i10b 1
-Z15 !s108 1571405249.856044
+Z15 !s108 1571407857.257948
 Z16 !s90 -reportprogress|300|-work|work|ula.vhd|
 Z17 !s107 ula.vhd|
 !i113 0
@@ -60,8 +59,8 @@ R9
 Z21 DEx4 work 3 alu 0 22 _mb:BUI;k]^I@cV:UON0;3
 l16
 L13
-VG]oGBa;OCz6fG9GW`@aG;0
-!s100 H0SjDbc7Q:a;cG5eBTM1J0
+VOl]@?e_Si0G6Eh@b2HZDW3
+!s100 [@`8GfFKzR?=>34?mCUJB1
 R13
 32
 R14
@@ -75,7 +74,7 @@ R19
 Pp_ula
 R8
 R9
-R4
+Z22 w1571403384
 R10
 8package_ula.vhd
 Fpackage_ula.vhd
@@ -87,19 +86,19 @@ R13
 32
 R14
 !i10b 1
-!s108 1571405249.766931
+!s108 1571407857.180437
 !s90 -reportprogress|300|-work|work|package_ula.vhd|
 !s107 package_ula.vhd|
 !i113 0
 R18
 R19
 Esoma_sub
-R4
+R22
 R8
 R9
 R10
-Z22 8soma_sub.vhd
-Z23 Fsoma_sub.vhd
+Z23 8soma_sub.vhd
+Z24 Fsoma_sub.vhd
 l0
 L3
 V68jfV_VfK_4=IZhPdUaD61
@@ -108,9 +107,9 @@ R13
 32
 R14
 !i10b 1
-Z24 !s108 1571405249.813821
-Z25 !s90 -reportprogress|300|-work|work|soma_sub.vhd|
-Z26 !s107 soma_sub.vhd|
+Z25 !s108 1571407857.220368
+Z26 !s90 -reportprogress|300|-work|work|soma_sub.vhd|
+Z27 !s107 soma_sub.vhd|
 !i113 0
 R18
 R19
@@ -126,20 +125,20 @@ R13
 32
 R14
 !i10b 1
-R24
 R25
 R26
+R27
 !i113 0
 R18
 R19
 Etb
-Z27 w1571405236
+Z28 w1571407854
 R5
 R8
 R9
 R10
-Z28 8tb_ula.vhd
-Z29 Ftb_ula.vhd
+Z29 8tb_ula.vhd
+Z30 Ftb_ula.vhd
 l0
 L8
 V=]M`KM7z?8?:G<=>NO;fI3
@@ -148,9 +147,9 @@ R13
 32
 R14
 !i10b 1
-Z30 !s108 1571405249.899465
-Z31 !s90 -reportprogress|300|-work|work|tb_ula.vhd|
-Z32 !s107 tb_ula.vhd|
+Z31 !s108 1571407857.297632
+Z32 !s90 -reportprogress|300|-work|work|tb_ula.vhd|
+Z33 !s107 tb_ula.vhd|
 !i113 0
 R18
 R19
@@ -164,15 +163,15 @@ R9
 DEx4 work 2 tb 0 22 =]M`KM7z?8?:G<=>NO;fI3
 l17
 L11
-V7H0G_R5hY0[ok61SmW6R]0
-!s100 4bnDbiCk>MJ7FmNG2F]M[1
+V]NbPJfdJ3VH4`ME^KgU3]2
+!s100 E6VVT4TCj4N9cWeFB;JUK0
 R13
 32
 R14
 !i10b 1
-R30
 R31
 R32
+R33
 !i113 0
 R18
 R19

@@ -20,8 +20,8 @@ z <= '1' when outalu_interno = x"000" else '0';
  --- instancia a soma
  ---
  mode <= '0' when opmode=uADD or opmode=uOP1 else '1';
- aa <= x"000" when opmode=uC2OP1 or opmode=uOP1 else op2 when opmode=uSUBOP2 else op1;
- bb <= op1 when opmode=uSUBOP2 or opmode=uOP1 else op2;
+ aa <= x"000" when opmode=uC2OP1 else op2 when opmode=uSUBOP2 else op1;
+ bb <= x"000" when opmode=uOP1 else op1 when opmode=uSUBOP2 else op2;
  
  sb: entity work.soma_sub
  generic map(12)
