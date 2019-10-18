@@ -16,9 +16,18 @@ architecture a1 of tb is
 
  begin
 
-    op1 <= x"AAA", x"BBB" after 35ns;
-    op2 <= x"CCC", x"ABC" after 35ns;
-    opmode <= uOR;
+    op1 <= x"AAA", x"BBB" after 500 ns;
+    op2 <= x"CCC", x"ABC" after 500 ns;
+    --opmode <= uAND;
+    --opmode <= uOR;
+    --opmode <= uXNOR;
+    --opmode <= uSLL;
+    --opmode <= uSRL;
+    --opmode <= uADD;
+    --opmode <= uSUB;
+    --opmode <= uSUBOP2;
+    --opmode <= uOP1;
+    opmode <= uC2OP1;
 
     sb: entity work.alu
              port map( op1=> op1, op2=> op2, outalu=>outalu, z=>z, cout=>cout, ov=>ov, opmode=>opmode);   
